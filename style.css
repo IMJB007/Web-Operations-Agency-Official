@@ -395,10 +395,6 @@ form .button{
     border-radius: 200px;
     width: 400px;
 }
-.ceo img{
-    border-radius: 500px;
-    width: 400px;
-}
 .overlay {
     position: absolute;
     bottom: 0;
@@ -417,7 +413,9 @@ form .button{
 .ceo:hover .overlay {
     height: 100%;
 }
-
+.ceo .none{
+   display: none;
+}
 .text {
     white-space: nowrap;
     color: white;
@@ -686,6 +684,12 @@ footer .subscribe a {
     }
     .hero h1{
         font-size: 50px;
+    }
+    .overlay{
+        display: none;
+    }
+    .text{
+        display: none; 
     }
 
 
