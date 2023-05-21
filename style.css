@@ -702,8 +702,15 @@ footer .subscribe a {
         display: none; 
     }
     .ceo .none{
-        display: initial;
-}
+        display: block;
+    }
+    .overlay {
+        display: none;
+    }
+        
+    .text {
+        display: none;
+    }
 
 
 }
