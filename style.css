@@ -351,7 +351,7 @@ form .button{
     padding: 0;
     justify-content: space-between;
     text-align: center; 
-    background: #f9f9ff; 
+    background: #000000; 
     width: 100%;
     margin-bottom: 3%;
 }
@@ -689,8 +689,8 @@ footer .subscribe a {
         font-size: 50px;
     }
     .ceo {
-        position: static;
-        width: auto;
+        position: relative;
+        width: 100%;
     }
     .overlay{
         display: none;
